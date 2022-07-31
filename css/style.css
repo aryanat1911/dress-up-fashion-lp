@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px;
+  overflow-x: hidden;
+}
+
+.right-nav-mobile {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-alignment {
+  width: 75%;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+.dropdown-toggle {
+  border: none;
+  background-color: inherit;
+}
+.navbar-brand img {
+  width: 150px;
+  transition: 200ms ease-in-out;
+}
+
+.navbar-brand-img-half {
+  width: 70px !important;
+  transition: 200ms ease-in-out;
+}
+
+.nav-item {
+  display: flex;
+}
+
+.right-nav .nav-link {
+  margin: 0 10px;
+}
+
+.fa-solid {
+  vertical-align: bottom;
+}
+
+.landing-bg {
+  background-image: url("../images/landing-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.landing-text {
+  display: flex;
+  justify-content: end;
+  min-height: 70vh;
+  flex-direction: column;
+  align-items: end;
+  width: 90%;
+}
+
+.landing-text h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.landing-text h6 {
+  font-weight: 500;
+}
+
+.landing-btn {
+  margin-top: 30px;
+}
+.landing-btn a {
+  color: #fff;
+  background-color: #22262a;
+  padding: 6px 15px;
+  margin: 20px 30px 0 0;
+  transition: 200ms ease-in-out;
+  font-weight: 500;
+}
+
+.landing-btn a:hover {
+  background-color: #4c4c4c;
+}
+
+#second-section,
+#avone-section,
+#footer-section .container,
+#women-section,
+#men-section,
+#tachen-section .container {
+  width: 75%;
+  margin: auto;
+  padding: 50px 0 25px 0;
+}
+
+.women-heading h3,
+.men-heading h3,
+.avone-heading h3 {
+  font-weight: 700;
+}
+
+#second-section img {
+  width: 100%;
+  height: 100%;
+}
+
+.dark-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00000057;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.category-name {
+  position: relative;
+  width: 98%;
+  margin: auto;
+}
+
+.cat-btn {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  background-color: #fff;
+  padding: 6px 15px;
+  color: #000;
+  font-weight: 500;
+  transition: 200ms ease-in-out;
+}
+
+.cat-btn:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.card {
+  width: 220px;
+  min-height: 300px;
+  border: none;
+}
+
+.card img {
+  transition: 200ms ease-in-out;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-details {
+  padding: 20px 0;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.og-price {
+  text-decoration: line-through;
+}
+
+.discount-price {
+  color: red;
+}
+
+.women-heading,
+.men-heading,
+.avone-heading {
+  padding: 20px 0 50px 0;
+  text-align: center;
+}
+
+.avone-img-2 {
+  transform: translateY(-30px);
+}
+
+.avone-img-1,
+.avone-img-2 {
+  width: 100%;
+}
+
+.avone-img-3 {
+  position: absolute;
+  right: -5%;
+  bottom: 0;
+  width: 200px;
+  border: 10px solid #fff;
+}
+
+.avone-btn {
+  width: 60%;
+  text-align: end;
+  padding-top: 50px;
+}
+
+.avone-btn a {
+  border-bottom: 1px solid black;
+  color: #000;
+  transition: 200ms ease-in-out;
+}
+
+.avone-btn a:hover {
+  background-color: #22262a;
+  color: #fff;
+}
+
+#tachen-section {
+  background-image: url("../images/tachen-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 700px;
+}
+
+.tachen-text {
+  display: flex;
+  align-items: flex-end;
+  height: 600px;
+}
+
+.tachen-text h6 {
+  font-size: 18px;
+}
+
+.tachen-text h1 {
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.tachen-btn {
+  background-color: #22262a;
+  padding: 6px 15px;
+  color: #fff;
+  transition: 200ms ease-in-out;
+}
+
+.tachen-btn:hover {
+  background-color: #4c4c4c;
+  color: #fff;
+}
+
+#footer-section {
+  background-color: #f2f8fc;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-text img {
+  width: 200px;
+}
+
+.email-update-text {
+  font-weight: 700;
+}
+
+.footer-social .email span {
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.footer-social .social-icon ul {
+  display: flex;
+  padding: 20px 0;
+}
+
+.footer-social .social-icon ul li {
+  margin-right: 15px;
+}
+
+.footer-social .social-icon a {
+  color: #000;
+}
+
+#footer-join-btn {
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-left: none;
+  color: #000;
+}
+
+.footer-list {
+  padding: 0;
+  padding-top: 10px;
+}
+
+.footer-list li {
+  padding: 8px 0;
+}
+
+.footer-shop h6,
+.footer-help h6,
+.footer-about h6 {
+  font-weight: 600;
+}
+
+#copyright-footer {
+  background-color: #e7f5f8;
+  padding: 20px 0;
+  text-align: center;
+}

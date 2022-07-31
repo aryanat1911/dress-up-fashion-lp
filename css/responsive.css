@@ -1,0 +1,104 @@
+@media (max-width: 1025px) {
+  .cards-wrapper {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .avone-btn {
+    text-align: left;
+  }
+
+  .avone-img-3 {
+    right: -15%;
+  }
+}
+
+@media (max-width: 991px) {
+  .right-nav-desktop {
+    display: none;
+  }
+
+  .right-nav-mobile {
+    display: block;
+    padding: 0;
+  }
+  .nav-item {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 769px) {
+  #second-section,
+  #avone-section,
+  #footer-section,
+  #women-section,
+  #men-section,
+  #tachen-section {
+    width: 100%;
+    margin: auto;
+    padding: 30px 0 25px 0;
+    overflow-x: hidden;
+  }
+
+  .landing-text {
+    width: 100%;
+    min-height: calc(90vh - 10vh);
+  }
+
+  .landing-text h1,
+  .tachen-text h1 {
+    font-size: 3.5rem;
+  }
+  .avone-btn {
+    text-align: right;
+  }
+
+  #second-section,
+  #avone-section {
+    text-align: center;
+  }
+
+  #second-section img,
+  .avone-img-1,
+  .avone-img-2 {
+    width: 70%;
+  }
+
+  #tachen-section {
+    background-position: right;
+  }
+
+  .category-name {
+    width: 68%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 426px) {
+  .nav-alignment {
+    width: 100%;
+  }
+  .landing-text h1,
+  .tachen-text h1 {
+    font-size: 3rem;
+  }
+
+  .cards-wrapper {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .avone-img-3 {
+    right: 2%;
+    width: 150px;
+  }
+  .avone-btn {
+    text-align: center;
+  }
+  .landing-bg {
+    background-position: 32% 50%;
+  }
+  #tachen-section {
+    background-position: 85% 50%;
+  }
+}
