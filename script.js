@@ -14,13 +14,13 @@
       if ($(this).scrollTop() >= 200) {
         // set to new image
         $(".navbar-brand img").attr("src", "./images/DU.png");
+        $(".navbar-brand img").removeClass("navbar-brand-img-full img");
         $(".navbar-brand img").addClass("navbar-brand-img-half");
-        $(".navbar-brand img").removeClass("navbar-brand img");
       } else {
         //back to default
         $(".navbar-brand img").attr("src", "./images/DU-FULL.png");
         $(".navbar-brand img").removeClass("navbar-brand-img-half");
-        $(".navbar-brand img").addClass("navbar-brand img");
+        $(".navbar-brand img").addClass("navbar-brand-img-full img");
       }
     });
   });

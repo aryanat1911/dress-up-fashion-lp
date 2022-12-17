@@ -33,13 +33,13 @@ li {
   border: none;
   background-color: inherit;
 }
-.navbar-brand img {
-  width: 150px;
+.navbar-brand-img-full img {
+  width: 200px;
   transition: 200ms ease-in-out;
 }
 
 .navbar-brand-img-half {
-  width: 70px !important;
+  width: 40px !important;
   transition: 200ms ease-in-out;
 }
 
