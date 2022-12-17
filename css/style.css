@@ -6,9 +6,23 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  padding-top: 80px;
+  padding-top: 62px;
   overflow-x: hidden;
 }
+
+#whatsapp {
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 9999;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+#whatsapp img {
+  width: 70px;
+}
+
 
 .right-nav-mobile {
   display: none;
